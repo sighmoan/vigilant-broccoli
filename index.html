@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@sighmoan's CSS exercises</title>
+</head>
+
+<body>
+    <article class="plus-and-ex">
+        <div style="transform: translate(72%, 92%);">
+            <div style="transform:translate(40px,20px)rotate(45deg)"></div>
+            <div style="transform:translate(40px,-40px)rotate(-45deg)"></div>
+        </div>
+        <div style="transform: translate(210.5%, -9%)">
+            <div style="transform:translate(40px,20px)"></div>
+            <div style="transform:translate(40px,-40px)rotate(90deg)"></div>
+        </div>
+    </article>
+    <a href="http://www.cssbattle.dev">CSS Battle.dev, 2024-05-29</a>
+    <style>
+        article.plus-and-ex {
+            background: #4f77ff;
+            width: 400px;
+            height: 300px;
+        }
+
+        .plus-and-ex>div:not(div>div) {
+            width: 100px;
+            height: 100px;
+            background: #fff;
+            border-radius: 50%
+        }
+
+        .plus-and-ex>div>div {
+            width: 20px;
+            height: 60px;
+            border-radius: 10px;
+            background: #4f77ff
+        }
+    </style>
+    </article>
+</body>
+
+</html>
